@@ -1,0 +1,32 @@
+{
+    "name" : "gelysis/gs4-toolbox",
+    "description" : "Module extending standard Silverstripe 4 functionality.",
+    "version" : "0.1-alpha",
+    "type" : "silverstripe-vendormodule",
+    "license" : "BSD-3-Clause",
+    "keywords": [
+       	"silverstripe" 
+    ],
+    "homepage" : "https://bitbucket.org/gelysis/gs4-toolbox",
+    "authors": [
+        {
+            "name" : "Andreas Gerhards",
+            "email" : "andreas@gelysis.net"
+        }
+    ],
+    "require" : {
+        "php" : "~7.1",
+        "silverstripe/framework" : "~4.0",
+        "silverstripe/cms" : "~4.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Gs4Toolbox\\": "src/"
+        }
+    },
+    "include-path" : [
+        "src/"
+    ],
+    "minimum-stability" : "dev",
+    "prefer-stable" : true
+}
